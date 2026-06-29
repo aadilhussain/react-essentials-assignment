@@ -67,12 +67,11 @@ npm start
 Live Demo
 
 Portfolio Card
-
-https://YOUR-PORTFOLIO-VERCEL-LINK.vercel.app
+https://portfolio-card-cyan.vercel.app/
 
 Movie Explorer
 
-https://YOUR-MOVIE-VERCEL-LINK.vercel.app
+https://aadilhussain-react-essentials-assig.vercel.app/
 
 ⸻
 
