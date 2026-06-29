@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eef3fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  color: #2563eb;
+}
+
+.reset-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+
+.left-panel,
+.right-panel {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.movie-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.movie-card h3 {
+  color: #2563eb;
+}
+
+.tags {
+  margin: 12px 0;
+}
+
+.tags span {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.fav-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px;
+}
+
+@media(max-width:768px) {
+
+  .container {
+    width: 95%;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+}
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.movie-header h3 {
+  color: #2563eb;
+  font-size: 22px;
+}
+
+.rating {
+  font-weight: bold;
+  color: #f59e0b;
+}
+
+.movie-info {
+  margin: 10px 0;
+  color: #666;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 4px;
+  background: #2563eb;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.fav-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.fav-btn:hover {
+  background: #1d4ed8;
+}
+
+.active {
+  background: #dc2626;
+}
+
+.active:hover {
+  background: #b91c1c;
+}
+
+.empty {
+  padding: 50px;
+  text-align: center;
+  color: #777;
+}
+
+.empty-message {
+  padding: 20px;
+  color: #777;
+}
+
+.favourite-card {
+  background: #fff7ed;
+}
